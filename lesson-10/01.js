@@ -116,7 +116,7 @@ const controller = {
 
   deleteMovie(id){
     model.deleteMovie(id)
-    view.displayMessage('Фильм добавлен успешно!', true)
+    view.displayMessage('Фильм добавлен успешно!', false)
   }
 
 }
