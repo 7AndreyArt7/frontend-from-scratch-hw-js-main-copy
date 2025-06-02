@@ -32,6 +32,7 @@ const model = {
   // your code
   deleteMovie(id){
     this.movies.splice(this.movies.indexOf(id), 1)
+    view.displayMessage('Фильм добавлен успешно!')
     view.renderMovies(this.movies)
   }
 }
@@ -116,7 +117,6 @@ const controller = {
 
   deleteMovie(id){
     model.deleteMovie(id)
-    view.displayMessage('Фильм добавлен успешно!')
   }
 
 }
