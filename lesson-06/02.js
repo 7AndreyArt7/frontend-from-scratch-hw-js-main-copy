@@ -30,7 +30,7 @@ const numbers = [1, 2, 3, 4, 5]
 
 const map = (array, callback) => {
     const result=[]
-    for (let index = 0; index < numbers.length; index++) {
+    for (let index = 0; index < array.length; index++) {
         const element = array[index];
         result.push(callback(element, index));
     }
