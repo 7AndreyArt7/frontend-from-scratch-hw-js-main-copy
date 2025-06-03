@@ -114,8 +114,8 @@ const controller = {
   },
   // your code
 
-  deleteMovie(id){
-    model.deleteMovie(id)
+  deleteMovie(taskId){
+    model.deleteMovie(taskId)
     view.displayMessage('Фильм добавлен успешно!', false)
   }
 
